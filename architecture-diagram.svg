@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#1e1e1e" />
+    <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">AI-Powered Document Processing System Architecture</text>
+    
+    <!-- User Input Section -->
+    <rect x="50" y="100" width="140" height="80" rx="10" ry="10" fill="#333" stroke="#4caf50" stroke-width="2" />
+    <text x="120" y="135" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">User Interaction</text>
+    <text x="120" y="155" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Chat / File Upload</text>
+    
+    <!-- Triggers -->
+    <rect x="50" y="230" width="140" height="60" rx="10" ry="10" fill="#333" stroke="#4caf50" stroke-width="2" />
+    <text x="120" y="255" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Event Triggers</text>
+    <text x="120" y="275" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">n8n Workflows</text>
+    
+    <!-- Input Processing -->
+    <rect x="240" y="100" width="140" height="70" rx="10" ry="10" fill="#333" stroke="#3f51b5" stroke-width="2" />
+    <text x="310" y="135" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Input Processing</text>
+    <text x="310" y="155" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">OneDrive / Chat</text>
+    
+    <!-- Vector Store -->
+    <rect x="440" y="80" width="150" height="80" rx="10" ry="10" fill="#333" stroke="#673ab7" stroke-width="2" />
+    <text x="515" y="115" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Pinecone Vector</text>
+    <text x="515" y="135" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Store</text>
+    <text x="515" y="155" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle">Document Embeddings</text>
+    
+    <!-- AI Processing Section -->
+    <rect x="240" y="220" width="140" height="80" rx="10" ry="10" fill="#333" stroke="#2196f3" stroke-width="2" />
+    <text x="310" y="255" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">AI Agent</text>
+    <text x="310" y="275" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Tools Agent</text>
+    <text x="310" y="295" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle">Chat Model / Memory</text>
+    
+    <!-- Memory Section -->
+    <rect x="240" y="350" width="140" height="70" rx="10" ry="10" fill="#333" stroke="#00bcd4" stroke-width="2" />
+    <text x="310" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Window Buffer</text>
+    <text x="310" y="400" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Memory</text>
+    
+    <!-- Data Processing -->
+    <rect x="440" y="220" width="150" height="80" rx="10" ry="10" fill="#333" stroke="#009688" stroke-width="2" />
+    <text x="515" y="255" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Default Data</text>
+    <text x="515" y="275" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Loader</text>
+    <text x="515" y="295" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle">Document Processing</text>
+    
+    <!-- Text Processing -->
+    <rect x="440" y="350" width="150" height="70" rx="10" ry="10" fill="#333" stroke="#ff9800" stroke-width="2" />
+    <text x="515" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Recursive Character</text>
+    <text x="515" y="400" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Text Splitter</text>
+    
+    <!-- AI Models -->
+    <rect x="50" y="350" width="140" height="70" rx="10" ry="10" fill="#333" stroke="#9c27b0" stroke-width="2" />
+    <text x="120" y="380" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">OpenAI</text>
+    <text x="120" y="400" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Chat Model</text>
+    
+    <!-- Embeddings -->
+    <rect x="240" y="470" width="140" height="70" rx="10" ry="10" fill="#333" stroke="#9c27b0" stroke-width="2" />
+    <text x="310" y="500" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Embeddings</text>
+    <text x="310" y="520" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">OpenAI</text>
+    
+    <!-- Legend -->
+    <rect x="620" y="420" width="150" height="160" rx="5" ry="5" fill="#333" stroke="#555" stroke-width="1" />
+    <text x="695" y="440" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Legend</text>
+    
+    <rect x="630" y="455" width="15" height="15" fill="#333" stroke="#4caf50" stroke-width="2" />
+    <text x="695" y="467" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">User Interface / Triggers</text>
+    
+    <rect x="630" y="480" width="15" height="15" fill="#333" stroke="#2196f3" stroke-width="2" />
+    <text x="695" y="492" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">AI Processing</text>
+    
+    <rect x="630" y="505" width="15" height="15" fill="#333" stroke="#673ab7" stroke-width="2" />
+    <text x="695" y="517" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Vector Database</text>
+    
+    <rect x="630" y="530" width="15" height="15" fill="#333" stroke="#9c27b0" stroke-width="2" />
+    <text x="695" y="542" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">AI Models</text>
+    
+    <rect x="630" y="555" width="15" height="15" fill="#333" stroke="#009688" stroke-width="2" />
+    <text x="695" y="567" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle">Data Processing</text>
+    
+    <!-- Connection lines -->
+    <!-- User to Event Triggers -->
+    <line x1="120" y1="180" x2="120" y2="230" stroke="#4caf50" stroke-width="2" />
+    
+    <!-- Event Triggers to Input Processing -->
+    <path d="M 190 250 Q 215 250 215 165 Q 215 135 240 135" stroke="#4caf50" stroke-width="2" fill="none" />
+    
+    <!-- Input Processing to Vector Store -->
+    <line x1="380" y1="135" x2="440" y2="135" stroke="#3f51b5" stroke-width="2" />
+    
+    <!-- Event Triggers to AI Agent -->
+    <path d="M 190 260 Q 215 260 215 260 Q 215 260 240 260" stroke="#4caf50" stroke-width="2" fill="none" />
+    
+    <!-- AI Agent to Window Buffer -->
+    <line x1="310" y1="300" x2="310" y2="350" stroke="#2196f3" stroke-width="2" />
+    
+    <!-- Vector Store to Default Data Loader -->
+    <line x1="515" y1="160" x2="515" y2="220" stroke="#673ab7" stroke-width="2" />
+    
+    <!-- Default Data Loader to Text Splitter -->
+    <line x1="515" y1="300" x2="515" y2="350" stroke="#009688" stroke-width="2" />
+    
+    <!-- AI Agent to Vector Store -->
+    <path d="M 380 245 Q 410 245 410 135 Q 410 135 440 135" stroke="#2196f3" stroke-width="2" fill="none" />
+    
+    <!-- Event Triggers to OpenAI Chat Model -->
+    <path d="M 120 290 Q 120 320 120 350" stroke="#4caf50" stroke-width="2" fill="none" />
+    
+    <!-- Vector Store to Embeddings OpenAI -->
+    <path d="M 440 120 Q 400 120 350 120 Q 310 120 310 470" stroke="#673ab7" stroke-width="2" fill="none" />
+    
+    <!-- Dotted paths for data flow -->
+    <path d="M 190 375 Q 215 375 215 260 Q 215 260 240 260" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" fill="none" />
+    <path d="M 380 260 Q 410 260 410 260 Q 410 260 440 260" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" fill="none" />
+    <path d="M 310 420 Q 310 445 310 470" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" fill="none" />
+    <path d="M 310 540 Q 310 560 400 560 Q 490 560 515 420" stroke="#ffffff" stroke-width="1" stroke-dasharray="5,5" fill="none" />
+</svg>
